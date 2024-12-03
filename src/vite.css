@@ -1,0 +1,221 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body{
+        background-color:#210f0f ;
+        max-height: 650px;
+        color: white;
+        .poppins-thin {
+          font-family: "Poppins", serif;
+          font-weight: 100;
+          font-style: normal;
+        }
+        
+        .poppins-extralight {
+          font-family: "Poppins", serif;
+          font-weight: 200;
+          font-style: normal;
+        }
+        
+        .poppins-light {
+          font-family: "Poppins", serif;
+          font-weight: 300;
+          font-style: normal;
+        }
+        
+        .poppins-regular {
+          font-family: "Poppins", serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        
+        .poppins-medium {
+          font-family: "Poppins", serif;
+          font-weight: 500;
+          font-style: normal;
+        }
+        
+        .poppins-semibold {
+          font-family: "Poppins", serif;
+          font-weight: 600;
+          font-style: normal;
+        }
+        
+        .poppins-bold {
+          font-family: "Poppins", serif;
+          font-weight: 700;
+          font-style: normal;
+        }
+        
+        .poppins-extrabold {
+          font-family: "Poppins", serif;
+          font-weight: 800;
+          font-style: normal;
+        }
+        
+        .poppins-black {
+          font-family: "Poppins", serif;
+          font-weight: 900;
+          font-style: normal;
+        }
+        
+        .poppins-thin-italic {
+          font-family: "Poppins", serif;
+          font-weight: 100;
+          font-style: italic;
+        }
+        
+        .poppins-extralight-italic {
+          font-family: "Poppins", serif;
+          font-weight: 200;
+          font-style: italic;
+        }
+        
+        .poppins-light-italic {
+          font-family: "Poppins", serif;
+          font-weight: 300;
+          font-style: italic;
+        }
+        
+        .poppins-regular-italic {
+          font-family: "Poppins", serif;
+          font-weight: 400;
+          font-style: italic;
+        }
+        
+        .poppins-medium-italic {
+          font-family: "Poppins", serif;
+          font-weight: 500;
+          font-style: italic;
+        }
+        
+        .poppins-semibold-italic {
+          font-family: "Poppins", serif;
+          font-weight: 600;
+          font-style: italic;
+        }
+        
+        .poppins-bold-italic {
+          font-family: "Poppins", serif;
+          font-weight: 700;
+          font-style: italic;
+        }
+        
+        .poppins-extrabold-italic {
+          font-family: "Poppins", serif;
+          font-weight: 800;
+          font-style: italic;
+        }
+        
+        .poppins-black-italic {
+          font-family: "Poppins", serif;
+          font-weight: 900;
+          font-style: italic;
+        }
+        
+
+    }
+  }
+  .container{
+    background-color: #210f0f;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .top-container{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    align-items: center;
+  }
+ 
+  .search{
+    input{
+    background-color: transparent;
+    border: 1px solid red;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    margin-right: 17px;
+    margin-bottom: 25px;
+  }
+}
+.search-field{
+  display: flex;
+}
+.auth-btn{
+  margin-top: 4px;
+}
+.filter-container{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding-bottom: 40px;
+}
+.beauty-btn{
+  background-color: #ff4343;
+  border-radius: 5px;
+  padding: 6px 12px;
+  border: none;
+ 
+
+}
+.food-container{
+  background-image: url("/bg.png");
+  background-size: cover;
+  height: 550px;
+  
+  
+}
+.food-info button{
+  background-color: #ff4343;
+  border-radius: 5px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  &:hover{
+    background-color: #e81515;
+  }
+}
+.food-cards{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 32px;
+  column-gap: 22px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+.food-card{
+ background-color: transparent;
+ border-radius: 20px;
+ width: 340px;
+ height: 167px;
+ border: 1px solid gainsboro;
+ display: flex;
+ padding: 8px;
+}
+.food-info{
+  display:  flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+
+}
+.food-info h3{
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 200px;
+}
+.food-info p{
+  font-size: 12px;
+  margin-top: 4px;
+}
+.food-info button{
+  font-size: 12px;
+}
+  
